@@ -14,4 +14,7 @@
 * 불균형 데이터 처리 방법 :
     * Downsample Negative Class
     * Add Class Weights
-
+---
+* XAI (Explainable AI) 분석:
+   * SHAP (SHapley Additive exPlanations)**을 활용하여 모델의 예측 결과를 해석.
+   * SHAP 값을 통해 각 변수의 기여도를 분석하고, 기부 여부 예측에 가장 큰 영향을 미치는 주요 변수를 식별
