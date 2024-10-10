@@ -8,6 +8,7 @@
     * 변수 값이 1개만 존재하는 변수는 삭제
     * 개인정보를 의미하는 ID 등의 변수는 삭제
     * 가중치 같은 필요없는 변수는 삭제
+---
 * 활용 알고리즘 후보 :
     * Machine Learning 5종: Logistic Regression, Random Forest, XGBoost, LGBM, CatBoost
     * Deep Learning 2종: Multi-Layer Perception (MLP), Convolutional Neural Network (CNN)
