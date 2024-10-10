@@ -1,0 +1,17 @@
+# <기부자 특성분석 및 예측>
+
+* 데이터 : 한국보건사회연구원 한국복지패널 (https://www.koweps.re.kr:442/data/data/list.do)
+* 데이터기간 : 2006년~2023년
+* 분석대상(Y) : 지난 1년간 기부를 1만원 이상 하는지 여부
+* 활용변수(X) : Y 변수를 제외한 나머지 변수
+    * 전체 중에 50% 이상이 비어있는 변수는 삭제
+    * 변수 값이 1개만 존재하는 변수는 삭제
+    * 개인정보를 의미하는 ID 등의 변수는 삭제
+    * 가중치 같은 필요없는 변수는 삭제
+* 활용 알고리즘 후보 :
+    * Machine Learning 5종: Logistic Regression, Random Forest, XGBoost, LGBM, CatBoost
+    * Deep Learning 2종: Multi-Layer Perception (MLP), Convolutional Neural Network (CNN)
+* 불균형 데이터 처리 방법 :
+    * Downsample Negative Class
+    * Add Class Weights
+
