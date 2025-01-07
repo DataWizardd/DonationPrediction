@@ -18,3 +18,4 @@
 * XAI (Explainable AI) 분석:
    * SHAP (SHapley Additive exPlanations)을 활용하여 모델의 예측 결과를 해석
    * SHAP 값을 통해 각 변수의 기여도를 분석하고, 기부 여부 예측에 가장 큰 영향을 미치는 주요 변수를 식별
+<img width="320" alt="image" src="https://github.com/user-attachments/assets/e8969617-b2ba-4ef4-8b71-5391ab21142b" />
